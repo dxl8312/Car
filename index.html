@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汽车网站 | 十款热门车型参数对比与选车指南</title>
+<meta name="description" content="汽车网站汇集十款热门车型的核心参数与价格：轿车、SUV、新能源、MPV、性能跑车与皮卡全覆盖，动力、续航、油耗、空间一页对比，选车先看参数。">
+<meta name="keywords" content="汽车参数,车型对比,SUV,新能源汽车,轿车,MPV,选车指南">
+<meta name="theme-color" content="#0071E3">
+<meta property="og:title" content="汽车网站 | 十款热门车型参数对比与选车指南">
+<meta property="og:description" content="十款热门车型，动力、续航、油耗、空间核心参数一页看清。演示站点，数据均为模拟。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="汽车网站">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230071E3'/%3E%3Cpath d='M4 14l1.6-4.2A2 2 0 017.5 8.5h6.2a2 2 0 011.8 1.2L18 14v3.5h-2.2a1.8 1.8 0 11-3.6 0H9.8a1.8 1.8 0 11-3.6 0H4V14z' fill='none' stroke='%23fff' stroke-width='1.6' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "汽车网站",
+      "description": "车型参数对比演示站点，汇集轿车、SUV、新能源、MPV、性能跑车与皮卡的核心参数信息。",
+      "email": "demo@example.com"
+    },
+    {
+      "@type": "ItemList",
+      "name": "十款热门车型参数一览",
+      "numberOfItems": 10,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Car",
+            "name": "星澜 S7",
+            "brand": { "@type": "Brand", "name": "星澜" },
+            "bodyType": "轿车",
+            "fuelType": "汽油",
+            "vehicleTransmission": "8AT",
+            "seatingCapacity": 5,
+            "offers": { "@type": "Offer", "price": 189800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Car",
+            "name": "辰星 L6",
+            "brand": { "@type": "Brand", "name": "辰星" },
+            "bodyType": "轿车",
+            "fuelType": "插电混动",
+            "vehicleTransmission": "混动专用DHT",
+            "seatingCapacity": 5,
+            "offers": { "@type": "Offer", "price": 169800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Car",
+            "name": "星澜 EV7",
+            "brand": { "@type": "Brand", "name": "星澜" },
+            "bodyType": "轿车",
+            "fuelType": "纯电",
+            "vehicleTransmission": "单速减速器",
+            "seatingCapacity": 5,
+            "offers": { "@type": "Offer", "price": 229800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Car",
+            "name": "岚境 X5",
+            "brand": { "@type": "Brand", "name": "岚境" },
+            "bodyType": "SUV",
+            "fuelType": "汽油",
+            "vehicleTransmission": "7DCT",
+            "seatingCapacity": 5,
+            "offers": { "@type": "Offer", "price": 155800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Car",
+            "name": "岚境 X9",
+            "brand": { "@type": "Brand", "name": "岚境" },
+            "bodyType": "SUV",
+            "fuelType": "汽油",
+            "vehicleTransmission": "9AT",
+            "seatingCapacity": 7,
+            "offers": { "@type": "Offer", "price": 268800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Car",
+            "name": "岚境 EV5",
+            "brand": { "@type": "Brand", "name": "岚境" },
+            "bodyType": "SUV",
+            "fuelType": "纯电",
+            "vehicleTransmission": "单速减速器",
+            "seatingCapacity": 5,
+            "offers": { "@type": "Offer", "price": 198800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Car",
+            "name": "途乐 M8",
+            "brand": { "@type": "Brand", "name": "途乐" },
+            "bodyType": "MPV",
+            "fuelType": "汽油",
+            "vehicleTransmission": "9AT",
+            "seatingCapacity": 7,
+            "offers": { "@type": "Offer", "price": 216800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Car",
+            "name": "驭风 P1",
+            "brand": { "@type": "Brand", "name": "驭风" },
+            "bodyType": "跑车",
+            "fuelType": "汽油",
+            "vehicleTransmission": "7DCT",
+            "seatingCapacity": 2,
+            "offers": { "@type": "Offer", "price": 399800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "Car",
+            "name": "征途 T7",
+            "brand": { "@type": "Brand", "name": "征途" },
+            "bodyType": "皮卡",
+            "fuelType": "柴油",
+            "vehicleTransmission": "8AT",
+            "seatingCapacity": 5,
+            "offers": { "@type": "Offer", "price": 142800, "priceCurrency": "CNY" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "Car",
+            "name": "微电 D1",
+            "brand": { "@type": "Brand", "name": "微电" },
+            "bodyType": "微型车",
+            "fuelType": "纯电",
+            "vehicleTransmission": "单速减速器",
+            "seatingCapacity": 4,
+            "offers": { "@type": "Offer", "price": 69800, "priceCurrency": "CNY" }
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ===== SVG 车型图标库（内联 symbol，零外部依赖） ===== -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="ic-sedan" viewBox="0 0 220 110">
+    <ellipse cx="115" cy="99" rx="102" ry="6" fill="#000" opacity=".05"/>
+    <path fill="currentColor" d="M16 80 Q16 70 30 66 L72 46 Q84 38 100 38 L148 38 Q168 38 182 50 L204 62 Q214 66 214 76 L214 84 Q214 90 206 90 L26 90 Q16 90 16 80 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M82 54 L98 44 L118 44 L118 56 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M126 44 L148 44 Q162 44 172 54 L126 56 Z"/>
+    <circle cx="62" cy="90" r="15" fill="#232B33"/>
+    <circle cx="62" cy="90" r="6" fill="#FFFFFF" fill-opacity=".9"/>
+    <circle cx="168" cy="90" r="15" fill="#232B33"/>
+    <circle cx="168" cy="90" r="6" fill="#FFFFFF" fill-opacity=".9"/>
+  </symbol>
+  <symbol id="ic-suv" viewBox="0 0 220 110">
+    <ellipse cx="115" cy="99" rx="104" ry="6" fill="#000" opacity=".05"/>
+    <path fill="currentColor" d="M14 76 Q14 64 26 60 L46 36 Q54 28 70 28 L152 28 Q170 28 184 42 L200 58 Q210 62 210 72 L210 84 Q210 90 202 90 L24 90 Q14 90 14 76 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M54 40 L70 32 L96 32 L96 52 L44 52 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M104 32 L146 32 Q160 32 170 44 L104 52 Z"/>
+    <circle cx="58" cy="90" r="16" fill="#232B33"/>
+    <circle cx="58" cy="90" r="6.5" fill="#FFFFFF" fill-opacity=".9"/>
+    <circle cx="172" cy="90" r="16" fill="#232B33"/>
+    <circle cx="172" cy="90" r="6.5" fill="#FFFFFF" fill-opacity=".9"/>
+  </symbol>
+  <symbol id="ic-sports" viewBox="0 0 220 110">
+    <ellipse cx="115" cy="99" rx="102" ry="6" fill="#000" opacity=".05"/>
+    <path fill="currentColor" d="M14 82 Q14 74 26 70 L64 64 Q92 40 124 38 L152 38 Q172 38 186 50 L206 62 Q214 66 214 74 L214 84 Q214 90 206 90 L24 90 Q14 90 14 82 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M96 50 Q110 42 128 42 L146 42 L146 56 L88 56 Z"/>
+    <circle cx="60" cy="90" r="15" fill="#232B33"/>
+    <circle cx="60" cy="90" r="6" fill="#FFFFFF" fill-opacity=".9"/>
+    <circle cx="170" cy="90" r="15" fill="#232B33"/>
+    <circle cx="170" cy="90" r="6" fill="#FFFFFF" fill-opacity=".9"/>
+  </symbol>
+  <symbol id="ic-mpv" viewBox="0 0 220 110">
+    <ellipse cx="115" cy="99" rx="102" ry="6" fill="#000" opacity=".05"/>
+    <path fill="currentColor" d="M18 72 Q18 58 32 54 L48 32 Q56 24 74 24 L154 24 Q174 24 188 40 L202 56 Q210 60 210 70 L210 84 Q210 90 202 90 L28 90 Q18 90 18 72 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M56 36 L74 28 L100 28 L100 48 L46 48 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M108 28 L146 28 Q162 28 172 40 L108 48 Z"/>
+    <circle cx="60" cy="90" r="16" fill="#232B33"/>
+    <circle cx="60" cy="90" r="6.5" fill="#FFFFFF" fill-opacity=".9"/>
+    <circle cx="170" cy="90" r="16" fill="#232B33"/>
+    <circle cx="170" cy="90" r="6.5" fill="#FFFFFF" fill-opacity=".9"/>
+  </symbol>
+  <symbol id="ic-pickup" viewBox="0 0 220 110">
+    <ellipse cx="115" cy="99" rx="102" ry="6" fill="#000" opacity=".05"/>
+    <path fill="currentColor" d="M16 74 Q16 62 28 58 L46 36 Q54 28 72 28 L104 28 Q118 28 124 40 L130 56 L196 56 Q206 56 206 66 L206 82 Q206 90 196 90 L26 90 Q16 90 16 74 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M54 40 L72 30 L100 30 L100 50 L46 50 Z"/>
+    <circle cx="58" cy="90" r="16" fill="#232B33"/>
+    <circle cx="58" cy="90" r="6.5" fill="#FFFFFF" fill-opacity=".9"/>
+    <circle cx="172" cy="90" r="16" fill="#232B33"/>
+    <circle cx="172" cy="90" r="6.5" fill="#FFFFFF" fill-opacity=".9"/>
+  </symbol>
+  <symbol id="ic-mini" viewBox="0 0 220 110">
+    <ellipse cx="115" cy="99" rx="76" ry="5" fill="#000" opacity=".05"/>
+    <path fill="currentColor" d="M42 78 Q42 66 56 62 L76 44 Q86 36 102 36 L132 36 Q148 36 160 46 L176 58 Q184 62 184 70 L184 80 Q184 86 176 86 L52 86 Q42 86 42 78 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M82 48 L100 40 L118 40 L118 52 L70 52 Z"/>
+    <path fill="#FFFFFF" fill-opacity=".92" d="M126 40 L142 40 Q152 40 158 48 L126 52 Z"/>
+    <circle cx="72" cy="86" r="13" fill="#232B33"/>
+    <circle cx="72" cy="86" r="5" fill="#FFFFFF" fill-opacity=".9"/>
+    <circle cx="158" cy="86" r="13" fill="#232B33"/>
+    <circle cx="158" cy="86" r="5" fill="#FFFFFF" fill-opacity=".9"/>
+  </symbol>
+</svg>
+
+<!-- ===== 顶部菜单 ===== -->
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path d="M4 14l1.6-4.2A2 2 0 017.5 8.5h6.2a2 2 0 011.8 1.2L18 14v3.5h-2.2a1.8 1.8 0 11-3.6 0H9.8a1.8 1.8 0 11-3.6 0H4V14z" fill="none" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      </span>
+      <span>汽车网站<small>CAR SHOWCASE</small></span>
+    </a>
+    <button class="nav-toggle" id="navBtn" aria-label="打开菜单" aria-expanded="false">&#9776;</button>
+    <nav class="nav-links" id="navLinks" aria-label="主导航">
+      <a href="#top">首页</a>
+      <a href="#cars">车型中心</a>
+      <a href="#guide">选车指南</a>
+      <a href="#contact" class="nav-cta">预约试驾</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <span class="pill"><i></i>演示站点 · 参数均为模拟数据</span>
+        <h1>十款热门车型<br>参数价格<span class="grad">一页看清</span></h1>
+        <p class="sub">覆盖轿车、SUV、新能源、MPV、性能跑车与皮卡，动力、续航、油耗、空间核心参数对比，选车之前先看参数。</p>
+        <p class="en">Ten Popular Models · Specs &amp; Prices at a Glance</p>
+        <div class="hero-btns">
+          <a href="#cars" class="btn btn-p">浏览车型 &darr;</a>
+          <a href="#guide" class="btn btn-s">选车指南</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>10<i>款</i></b><span>演示车型</span></div>
+          <div class="stat"><b>6<i>类</i></b><span>车身品类</span></div>
+          <div class="stat"><b>20+<i>项</i></b><span>核心参数</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg class="hero-car" viewBox="0 0 220 110"><use href="#ic-sedan"></use></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 车型中心 ===== -->
+  <section id="cars" class="alt">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="bar"></div>
+        <h2>车型中心 <small>All Models</small></h2>
+        <p>十款车型按品类筛选，每张卡片包含车型名称、参考价格与六项核心参数，数据为演示用模拟数据。</p>
+      </div>
+
+      <div class="filter-bar rv" id="filterBar" role="group" aria-label="按品类筛选车型">
+        <button class="f-btn active" type="button" data-f="all" aria-pressed="true">全部</button>
+        <button class="f-btn" type="button" data-f="sedan" aria-pressed="false">轿车</button>
+        <button class="f-btn" type="button" data-f="suv" aria-pressed="false">SUV</button>
+        <button class="f-btn" type="button" data-f="ev" aria-pressed="false">新能源</button>
+        <button class="f-btn" type="button" data-f="mpv" aria-pressed="false">MPV</button>
+        <button class="f-btn" type="button" data-f="other" aria-pressed="false">性能 &#183; 其他</button>
+        <span class="f-count" id="filterCount" aria-live="polite"></span>
+      </div>
+
+      <div class="cars-grid">
+
+        <article class="car-card rv" data-cat="sedan">
+          <div class="car-visual" style="--c:#2B5CD9;--c-bg:#EDF2FD">
+            <span class="car-badge">燃油轿车</span>
+            <svg class="car-svg" role="img" aria-label="星澜 S7 三厢轿车侧面示意图"><use href="#ic-sedan"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>星澜 S7</h3>
+              <p class="car-price">&#165;18.98<small>万起</small></p>
+            </div>
+            <p class="car-sub">中大型轿车 &#183; 商务家用</p>
+            <p class="car-desc">行政级空间与整车静谧性，商务出行与家庭使用两相宜。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>汽油</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>2.0T 245 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>8AT</dd></div>
+              <div class="spec"><dt>油耗</dt><dd>6.8L/100km</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>2,900mm</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>5 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="sedan ev">
+          <div class="car-visual" style="--c:#0E9F6E;--c-bg:#E9F7F0">
+            <span class="car-badge">插混轿车</span>
+            <svg class="car-svg" role="img" aria-label="辰星 L6 插电混动轿车侧面示意图"><use href="#ic-sedan"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>辰星 L6</h3>
+              <p class="car-price">&#165;16.98<small>万起</small></p>
+            </div>
+            <p class="car-sub">紧凑型轿车 &#183; 可油可电</p>
+            <p class="car-desc">城里用电、长途用油，没有里程焦虑的通勤能手。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>插电混动</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>1.5T+电机 综合 264 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>混动专用 DHT</dd></div>
+              <div class="spec"><dt>续航</dt><dd>综合 1,200km</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>2,790mm</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>5 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="sedan ev">
+          <div class="car-visual" style="--c:#6D5BD0;--c-bg:#F0EEFA">
+            <span class="car-badge">纯电轿车</span>
+            <svg class="car-svg" role="img" aria-label="星澜 EV7 纯电轿车侧面示意图"><use href="#ic-sedan"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>星澜 EV7</h3>
+              <p class="car-price">&#165;22.98<small>万起</small></p>
+            </div>
+            <p class="car-sub">中大型轿车 &#183; 长续航四驱</p>
+            <p class="car-desc">705km 长续航搭配双电机四驱，3.8 秒破百。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>纯电</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>双电机四驱 435 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>单速减速器</dd></div>
+              <div class="spec"><dt>续航</dt><dd>CLTC 705km</dd></div>
+              <div class="spec"><dt>零百加速</dt><dd>3.8 秒</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>2,950mm</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="suv">
+          <div class="car-visual" style="--c:#0E8A78;--c-bg:#E8F5F3">
+            <span class="car-badge">燃油 SUV</span>
+            <svg class="car-svg" role="img" aria-label="岚境 X5 紧凑型 SUV 侧面示意图"><use href="#ic-suv"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>岚境 X5</h3>
+              <p class="car-price">&#165;15.58<small>万起</small></p>
+            </div>
+            <p class="car-sub">紧凑型 SUV &#183; 均衡实用</p>
+            <p class="car-desc">空间、油耗与售价的平衡之选，家庭第一台 SUV。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>汽油</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>1.5T 181 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>7DCT</dd></div>
+              <div class="spec"><dt>油耗</dt><dd>7.2L/100km</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>2,730mm</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>5 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="suv">
+          <div class="car-visual" style="--c:#55677E;--c-bg:#EEF1F4">
+            <span class="car-badge">燃油 SUV</span>
+            <svg class="car-svg" role="img" aria-label="岚境 X9 中大型七座 SUV 侧面示意图"><use href="#ic-suv"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>岚境 X9</h3>
+              <p class="car-price">&#165;26.88<small>万起</small></p>
+            </div>
+            <p class="car-sub">中大型 SUV &#183; 大七座</p>
+            <p class="car-desc">2+3+2 大七座布局，全家出行一步到位。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>汽油</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>2.0T 265 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>9AT</dd></div>
+              <div class="spec"><dt>油耗</dt><dd>8.4L/100km</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>2,980mm</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>7 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="suv ev">
+          <div class="car-visual" style="--c:#2B5CD9;--c-bg:#EDF2FD">
+            <span class="car-badge">纯电 SUV</span>
+            <svg class="car-svg" role="img" aria-label="岚境 EV5 纯电 SUV 侧面示意图"><use href="#ic-suv"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>岚境 EV5</h3>
+              <p class="car-price">&#165;19.88<small>万起</small></p>
+            </div>
+            <p class="car-sub">中型 SUV &#183; 城市通勤</p>
+            <p class="car-desc">610km 续航覆盖一周通勤，家充一夜满电。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>纯电</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>单电机后驱 218 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>单速减速器</dd></div>
+              <div class="spec"><dt>续航</dt><dd>CLTC 610km</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>2,800mm</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>5 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="mpv">
+          <div class="car-visual" style="--c:#C77B23;--c-bg:#FBF3E6">
+            <span class="car-badge">MPV</span>
+            <svg class="car-svg" role="img" aria-label="途乐 M8 七座 MPV 侧面示意图"><use href="#ic-mpv"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>途乐 M8</h3>
+              <p class="car-price">&#165;21.68<small>万起</small></p>
+            </div>
+            <p class="car-sub">中大型 MPV &#183; 双侧滑门</p>
+            <p class="car-desc">侧滑门大七座，第二排独立座椅即是头等舱。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>汽油</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>2.0T 252 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>9AT</dd></div>
+              <div class="spec"><dt>油耗</dt><dd>8.1L/100km</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>3,000mm</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>7 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="sports">
+          <div class="car-visual" style="--c:#D6455B;--c-bg:#FCEBED">
+            <span class="car-badge">性能跑车</span>
+            <svg class="car-svg" role="img" aria-label="驭风 P1 双门跑车侧面示意图"><use href="#ic-sports"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>驭风 P1</h3>
+              <p class="car-price">&#165;39.98<small>万起</small></p>
+            </div>
+            <p class="car-sub">双门跑车 &#183; 驾驶机器</p>
+            <p class="car-desc">3.0T 直列六缸配轻量化车身，3.9 秒破百。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>汽油</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>3.0T 381 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>7DCT</dd></div>
+              <div class="spec"><dt>油耗</dt><dd>10.2L/100km</dd></div>
+              <div class="spec"><dt>零百加速</dt><dd>3.9 秒</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>2 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="pickup">
+          <div class="car-visual" style="--c:#E0762A;--c-bg:#FDF1E7">
+            <span class="car-badge">皮卡</span>
+            <svg class="car-svg" role="img" aria-label="征途 T7 中型皮卡侧面示意图"><use href="#ic-pickup"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>征途 T7</h3>
+              <p class="car-price">&#165;14.28<small>万起</small></p>
+            </div>
+            <p class="car-sub">中型皮卡 &#183; 能拉能跑</p>
+            <p class="car-desc">非承载车身加拖挂资质，载货越野两不误。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>柴油</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>2.0T 218 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>8AT</dd></div>
+              <div class="spec"><dt>油耗</dt><dd>9.0L/100km</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>3,250mm</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>5 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="car-card rv" data-cat="mini">
+          <div class="car-visual" style="--c:#6D5BD0;--c-bg:#F0EEFA">
+            <span class="car-badge">微型电动车</span>
+            <svg class="car-svg" role="img" aria-label="微电 D1 微型纯电动车侧面示意图"><use href="#ic-mini"></use></svg>
+          </div>
+          <div class="car-body">
+            <div class="car-head">
+              <h3>微电 D1</h3>
+              <p class="car-price">&#165;6.98<small>万起</small></p>
+            </div>
+            <p class="car-sub">城市代步 &#183; 好停好开</p>
+            <p class="car-desc">窄巷会车无压力，每公里通勤成本只需几分钱。</p>
+            <dl class="car-specs">
+              <div class="spec"><dt>能源类型</dt><dd>纯电</dd></div>
+              <div class="spec"><dt>动力系统</dt><dd>单电机 75 马力</dd></div>
+              <div class="spec"><dt>变速箱</dt><dd>单速减速器</dd></div>
+              <div class="spec"><dt>续航</dt><dd>CLTC 301km</dd></div>
+              <div class="spec"><dt>轴距</dt><dd>2,080mm</dd></div>
+              <div class="spec"><dt>座位数</dt><dd>4 座</dd></div>
+            </dl>
+            <a class="car-btn" href="#contact">预约试驾<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 选车指南 ===== -->
+  <section id="guide">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="bar"></div>
+        <h2>选车指南 <small>Buying Guide</small></h2>
+        <p>四步把参数变成决策：先定预算，再选能源，然后对比参数，最后亲自试驾。</p>
+      </div>
+      <div class="steps rv">
+        <div class="step"><i>01</i><h3>明确预算</h3><span>先定落地价区间，再看配置梯度，避免越看越超支。</span></div>
+        <div class="step"><i>02</i><h3>选对能源</h3><span>城市通勤多可选纯电或插混，长途频繁优先燃油与混动。</span></div>
+        <div class="step"><i>03</i><h3>对比参数</h3><span>重点看动力、续航或油耗、轴距与座位数，匹配家庭场景。</span></div>
+        <div class="step"><i>04</i><h3>试驾验证</h3><span>参数之外，座椅舒适度与驾驶感受必须亲自试驾确认。</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 预约试驾 ===== -->
+  <section id="contact" class="alt">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="bar"></div>
+        <h2>预约试驾 <small>Book a Test Drive</small></h2>
+        <p>演示站点：以下联系信息均为占位内容，表单尚未接入真实服务。</p>
+      </div>
+      <div class="ct">
+        <dl class="ct-list rv">
+          <div class="fact"><dt>服务热线</dt><dd>400-XXX-XXXX（占位）</dd></div>
+          <div class="fact"><dt>门店地址</dt><dd>【待补充】</dd></div>
+          <div class="fact"><dt>电子邮箱</dt><dd>demo@example.com（占位）</dd></div>
+          <div class="fact"><dt>营业时间</dt><dd>09:00&#8211;18:00（演示信息）</dd></div>
+        </dl>
+        <div class="ct-card rv">
+          <h3>预约试驾<br>尊享一对一讲解</h3>
+          <div class="ln"></div>
+          <p>留下联系方式，销售顾问将为您安排专属试驾行程，现场对比十款车型的真实乘坐体验。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== 网页底部 ===== -->
+<footer>
+  <div class="wrap foot">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path d="M4 14l1.6-4.2A2 2 0 017.5 8.5h6.2a2 2 0 011.8 1.2L18 14v3.5h-2.2a1.8 1.8 0 11-3.6 0H9.8a1.8 1.8 0 11-3.6 0H4V14z" fill="none" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      </span>
+      <span>汽车网站<small>CAR SHOWCASE</small></span>
+    </a>
+    <nav class="foot-nav" aria-label="底部导航">
+      <a href="#cars">车型中心</a>
+      <a href="#guide">选车指南</a>
+      <a href="#contact">预约试驾</a>
+    </nav>
+    <div class="copy">
+      <p>本站为前端技术演示站点，页面内所有车型、参数与价格均为模拟数据，不代表任何真实在售车型。</p>
+      <p>&copy; 2026 汽车网站（演示） &#183; 备案信息：待补充</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

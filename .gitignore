@@ -1,0 +1,4 @@
+# 本地验证用临时文件，不入库
+_probe*
+_selftest*
+_shot*.png

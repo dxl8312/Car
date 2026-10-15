@@ -1,0 +1,24 @@
+# Netlify 部署配置 — 汽车网站（纯静态站点，无构建步骤）
+# 用法：把整个 Car 目录拖到 app.netlify.com/drop，或连接 Git 仓库自动部署
+
+[build]
+  publish = "."
+
+# ---- 全站安全响应头 ----
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# ---- 静态资源长缓存（index.html 不缓存，保证更新即时生效） ----
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

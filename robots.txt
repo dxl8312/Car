@@ -1,0 +1,6 @@
+# robots.txt — 汽车网站（演示站点）
+# 上线前请将 Sitemap 地址替换为真实域名
+User-agent: *
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
